@@ -1,0 +1,16 @@
+!-- dist404.html --
+!DOCTYPE html
+html
+head
+    meta charset=utf-8
+    titleRedirecttitle
+    script
+        const path = window.location.pathname;
+        sessionStorage.setItem('path', path);
+        window.location = '';
+    script
+head
+body
+    pRedirecting...p
+body
+html
