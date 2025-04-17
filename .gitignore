@@ -1,6 +1,12 @@
-.DS_Store
-node_modules
+# Dependencias
+node_modules/
 
+# Archivos generados
+dist/
+
+# Archivos de compilación y caché
+.DS_Store
+*.log
 
 # local env files
 .env.local
@@ -20,3 +26,4 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
